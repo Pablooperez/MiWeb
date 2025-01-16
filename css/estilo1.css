@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('../Fonts/IBMPlexMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Papyrus';
+    src: url('../Fonts/papyrus.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Regular.ttf') format('truetype');
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #32292F;
+    color: #575366;
+    font-family: 'Lora', serif;
+}
+
+/* Header */
+header {
+    background: #32292F;
+    color: #D1E3DD;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Papyrus', fantasy;
+    color: #D1E3DD;
+}
+
+h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 128, 255, 0.5);
+}
+
+/* Navigation */
+nav {
+    background: #6E7DAB;
+    color: #D1E3DD;
+    padding: 10px;
+    text-align: center;
+    font-family: 'IBMPlexMono', monospace;
+}
+
+/* Sidebar */
+aside {
+    background: #5762D5;
+    color: #D1E3DD;
+    padding: 15px;
+}
+
+/* Footer */
+footer {
+    background: #5762D5;
+    color: #D1E3DD;
+    text-align: center;
+    padding: 10px;
+    font-family: 'IBMPlexMono', monospace;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+/* Highlights */
+.destacado {
+    background: #6E7DAB;
+    color: #D1E3DD;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.icono-subir {
+    width: 10px;
+    height: 10px;
+}
+
+/* Table */
+.table-title {
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table thead th {
+    background-color: #D1E7DD;
+    font-size: 18px;
+    padding: 10px;
+    text-align: left;
+    font-family: 'IBMPlexMono', monospace;
+}
+
+table tbody td {
+    padding: 10px;
+    text-align: center;
+}
+
+table img {
+    width: 150px;
+}
+
+article p {
+    text-indent: 0.5in; 
+}
+
+article:nth-of-type(2) {
+    line-height: 1.5; 
+}
+
+/* Palabras destacadas */
+.highlight-dolor {
+    font-style: italic; 
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5); 
+    color: #FF4500; 
+}
+
+.highlight-ipsum {
+    text-decoration: underline; 
+    text-decoration-color: #00BFFF; 
+    font-weight: bold; 
+}
+
+table .descripcion {
+    letter-spacing: 0.2em; 
+}
+
+
